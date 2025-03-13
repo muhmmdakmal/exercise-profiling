@@ -40,7 +40,7 @@ public class StudentService {
             result.add(newSc);
         }
 
-        return result;
+        return null;
     }
 
     public Optional<Student> findStudentWithHighestGpa() {
